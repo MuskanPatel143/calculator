@@ -6,6 +6,8 @@ void main() {
   runApp(CalcApp());
 }
 
+// jay cmt
+
 bool dark = true;
 bool textchange = true;
 
