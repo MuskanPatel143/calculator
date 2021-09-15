@@ -78,6 +78,7 @@ class _CalcAppState extends State<CalcApp> {
     //     (_history[_history.length - 1] == '-' ||
     //         _history[_history.length - 1] == '+')) {
     // } else {
+    // ncujdcenidn
     if (_expression != '') {
       if (_expression.substring(_expression.length - 1) == '.') {
         _expression = _expression.substring(0, _expression.length - 1);
