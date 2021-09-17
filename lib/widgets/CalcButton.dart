@@ -37,7 +37,8 @@ class CalcButton extends StatelessWidget {
           ),
           style: TextButton.styleFrom(
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(50),
+              side: BorderSide(color: Colors.amber),
+              borderRadius: BorderRadius.circular(0),
             ),
             primary: Color(textColor),
             // ignore: unnecessary_null_comparison
