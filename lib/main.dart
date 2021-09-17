@@ -337,7 +337,7 @@ class _CalcAppState extends State<CalcApp> {
     if (_history.contains('+-')) {
       _history = _history.replaceAll('+-', '-');
     }
-    if (_expression.endsWith('.0')) {
+    if (_expression.endsWith('.00')) {
       _expression = _expression.replaceAll('.0', '');
     }
     // }
