@@ -431,7 +431,7 @@ class _CalcAppState extends State<CalcApp> {
                         child: TextButton(
                           onPressed: () {},
                           child: Text(
-                            'Converter',
+                            'Converter ...',
                             style: TextStyle(
                                 fontFamily: 'Rubik',
                                 fontWeight: FontWeight.w600),
